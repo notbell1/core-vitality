@@ -3,6 +3,10 @@
   "displayName": "CORE VITALITY: Dev Stats Dashboard",
   "description": "Ultra-luxury coding health tracker with animated SVG character and nebula background",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notbell1/core-vitality"
+  },
   "publisher": "ZXMARCHIA",
   "engines": {
     "vscode": "^1.75.0"
