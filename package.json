@@ -1,0 +1,47 @@
+{
+  "name": "core-vitality",
+  "displayName": "CORE VITALITY: Dev Stats Dashboard",
+  "description": "Ultra-luxury coding health tracker with animated SVG character and nebula background",
+  "version": "1.0.0",
+  "publisher": "ZXMARCHIA",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Visualization"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "core-vitality-sidebar",
+          "title": "CORE VITALITY",
+          "icon": "$(pulse)"
+        }
+      ]
+    },
+    "views": {
+      "core-vitality-sidebar": [
+        {
+          "type": "webview",
+          "id": "codingStatsView",
+          "name": "MONITOR",
+          "initialSize": 1
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.75.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.5"
+  }
+}
