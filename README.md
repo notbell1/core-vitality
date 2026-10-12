@@ -8,7 +8,7 @@
 [![Version](https://img.shields.io/badge/Version-1.0.0-blueviolet.svg)](package.json)
 [![Author](https://img.shields.io/badge/Author-ZXMARCHIA-00d2d3.svg)](https://github.com/notbell1)
 
-Created with ❤️ by **[ZXMARCHIA](https://github.com/notbell1)**
+Created with ❤️ by **[NTTBELL](https://github.com/notbell1)**
 
 ---
 
@@ -152,7 +152,7 @@ Proyek ini dilisensikan di bawah lisensi **MIT License**. Lihat berkas [LICENSE]
 
 <div align="center">
 
-Made with passion by **[ZXMARCHIA](https://github.com/notbell1)**  
+Made with passion by **[NTTBELL](https://github.com/notbell1)**  
 *Keep your code clean, keep your vitality high!* 🚀
 
 </div>
